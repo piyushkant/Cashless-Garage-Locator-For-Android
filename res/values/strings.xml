@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, GarageActivity!</string>
+    <string name="app_name">GLocator</string>
+    <string name="select_state">Select State</string>
+    <string name="select_city">Select City</string>
+    <string name="garage_name">Garage Name</string>
+
+    <color name="white">#999999</color>
+    <color name="off_white">#CCCCCC</color>
+
+</resources>

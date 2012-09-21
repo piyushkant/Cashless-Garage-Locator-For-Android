@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/locationText"
+                android:layout_width="match_parent"
+                android:layout_height="70dip"
+                android:layout_marginTop="80dip"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:text="Location Not Found"
+                android:textColor="#000000"
+                android:textSize="20dip"/>
+
+            <ImageView
+                android:id="@+id/imgButton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/locationText"
+                android:layout_marginTop="15dip"
+                android:src="@drawable/nearby" />
+
+            <ImageView
+                android:id="@+id/imgButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgButton1"
+                android:layout_marginTop="20dip"
+                android:src="@drawable/bycity" />
+
+            <ImageView
+                android:id="@+id/imgButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgButton2"
+                android:layout_marginTop="20dip"
+                android:src="@drawable/claim" />
+
+            <ProgressBar
+                android:id="@+id/pb"
+                android:layout_width="17dip"
+                android:layout_height="17dip"
+                android:layout_below="@id/imgButton3"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dip"
+                android:indeterminate="true"
+                android:indeterminateOnly="true"
+                android:isScrollContainer="false"
+                android:soundEffectsEnabled="false" />
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

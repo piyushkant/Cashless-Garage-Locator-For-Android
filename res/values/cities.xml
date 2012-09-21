@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cities_prompt">Select City</string>
+
+    <string-array name="AndhraPradesh">
+        <item>Hyderabad</item>
+        <item>Vijayawada</item>
+        <item>Tirupati</item>
+        <item>Warangal</item>
+        <item>Visakhapatnam</item>
+    </string-array>
+    <string-array name="AndamanandNicobarIslands">
+        <item>NA</item>
+    </string-array>
+    <string-array name="ArunachalPradesh">
+        <item>Itanagar</item>
+    </string-array>
+    <string-array name="Assam">
+        <item>Dispur</item>
+        <item>Guwahati</item>
+        <item>Tezpur</item>
+    </string-array>
+    <string-array name="Bihar">
+        <item>Gaya</item>
+        <item>Nalanda</item>
+        <item>Patna</item>
+        <item>Rajgir</item>
+        <item>Vaishali</item>
+    </string-array>
+    <string-array name="Chhattisgarh">
+        <item>Raipur</item>
+    </string-array>
+    <string-array name="DadarandNagarHaveli">
+        <item>NA</item>
+    </string-array>
+    <string-array name="Delhi">
+        <item>NA</item>
+    </string-array>
+    <string-array name="DamanandDiu">
+        <item>NA</item>
+    </string-array>
+    <string-array name="Goa">
+        <item>Canacona</item>
+        <item>Mapusa</item>
+        <item>Margao</item>
+        <item>Old Goa</item>
+        <item>Panaji</item>
+        <item>Ponda</item>
+        <item>Vasco Da Gama</item>
+    </string-array>
+    <string-array name="Gujarat">
+        <item>Ahmedabad</item>
+        <item>Vadodara</item>
+        <item>Gandhinagar</item>
+        <item>Surat</item>
+    </string-array>
+    <string-array name="Haryana">
+        <item>Chandigarh</item>
+        <item>Faridabad</item>
+        <item>Gurgaon</item>
+    </string-array>
+    <string-array name="HimachalPradesh">
+        <item>Shimla</item>
+        <item>Manali</item>
+        <item>Dharamsala</item>
+        <item>Kullu</item>
+    </string-array>
+    <string-array name="JammuandKashmir">
+        <item>Gulmarg</item>
+        <item>Ladakh</item>
+        <item>Jammu</item>
+        <item>Leh</item>
+        <item>Pahalgam</item>
+        <item>Srinagar</item>
+    </string-array>
+    <string-array name="Jharkhand">
+        <item>Dhanbad</item>
+        <item>Jamshedpur</item>
+        <item>Ranchi</item>
+    </string-array>
+    <string-array name="Karnataka">
+        <item>Bangalore</item>
+        <item>Hampi</item>
+        <item>Hassan</item>
+        <item>Mangalore</item>
+        <item>Mysore</item>
+        <item>Udupi</item>
+    </string-array>
+    <string-array name="Kerala">
+        <item>Alleppey</item>
+        <item>Cochin</item>
+        <item>Kumarakom</item>
+        <item>Kovalam</item>
+        <item>Kozhikode</item>
+        <item>Munnar</item>
+        <item>Quilon</item>
+        <item>Thekkady</item>
+        <item>Trivandrum</item>
+    </string-array>
+    <string-array name="Lakshadeep">
+        <item>NA</item>
+    </string-array>
+    <string-array name="MadhyaPradesh">
+        <item>Bhopal</item>
+        <item>Indore</item>
+        <item>Gwalior</item>
+        <item>Orchha</item>
+        <item>Khajuraho</item>
+    </string-array>
+    <string-array name="Maharashtra">
+        <item>Aurangabad</item>
+        <item>Mumbai</item>
+        <item>Nagpur</item>
+        <item>Pune</item>
+    </string-array>
+    <string-array name="Manipur">
+        <item>Imphal</item>
+    </string-array>
+    <string-array name="Meghalaya">
+        <item>Shillong</item>
+    </string-array>
+    <string-array name="Mizoram">
+        <item>Aizawl</item>
+    </string-array>
+    <string-array name="Nagaland">
+        <item>Kohima</item>
+    </string-array>
+    <string-array name="Orissa">
+        <item>Bhubaneswar</item>
+        <item>Cuttack</item>
+        <item>Konark</item>
+        <item>Puri</item>
+    </string-array>
+    <string-array name="Pondicherry">
+        <item>NA</item>
+    </string-array>
+    <string-array name="Punjab">
+        <item>Amritsar</item>
+        <item>Chandigarh</item>
+        <item>Ludhiana</item>
+        <item>Patiala</item>
+    </string-array>
+    <string-array name="Rajasthan">
+        <item>Ajmer</item>
+        <item>Alwar</item>
+        <item>Bikaner</item>
+        <item>Bundi</item>
+        <item>Jaipur</item>
+        <item>Jaisalmer</item>
+        <item>Jodhpur</item>
+        <item>Ranakpur</item>
+        <item>Shekhawati</item>
+        <item>Udaipur</item>
+    </string-array>
+    <string-array name="Sikkim">
+        <item>Gangtok</item>
+    </string-array>
+    <string-array name="Tamilnadu">
+        <item>Chennai</item>
+        <item>Coimbatore</item>
+        <item>Madurai</item>
+        <item>Ooty</item>
+        <item>Rameshwaram</item>
+        <item>Thanjavur</item>
+        <item>Trichy</item>
+        <item>Kodaikanal</item>
+        <item>Rameshwaram</item>
+        <item>Kanyakumari</item>
+    </string-array>
+    <string-array name="Tripura">
+        <item>Agartala</item>
+    </string-array>
+    <string-array name="Uttaranchal">
+        <item>Dehradun</item>
+        <item>Haridwar</item>
+        <item>Nainital</item>
+        <item>Rishikesh</item>
+    </string-array>
+    <string-array name="UttarPradesh">
+        <item>Agra</item>
+        <item>Allahabad</item>
+        <item>Lucknow</item>
+        <item>Varanasi</item>
+        <item>Noida</item>
+    </string-array>
+    <string-array name="Uttarakhand">
+        <item>NA</item>
+    </string-array>
+    <string-array name="WestBengal">
+        <item>Burdwan</item>
+        <item>Darjeeling</item>
+        <item>Durgapur</item>
+        <item>Kolkata</item>
+        <item>Murshidabad</item>
+    </string-array>
+
+</resources>

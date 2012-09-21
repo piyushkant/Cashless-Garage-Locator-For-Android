@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back" >
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/selectState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dip"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:text="Select State:"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/stateButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/selectState"
+                android:layout_marginTop="2dip"
+                android:textSize="20dip" />
+
+            <TextView
+                android:id="@+id/selectCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/stateButton"
+                android:layout_marginTop="15dip"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:text="Filter by City:"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/cityButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/selectCity"
+                android:layout_marginTop="2dip"
+                android:textSize="20dip" />
+
+            <Button
+                android:id="@+id/searchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cityButton"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="25dip"
+                android:text="Search"
+                android:textSize="24dip"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e6eed6"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/head"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/head" />
+
+        <ProgressBar
+            android:id="@+id/pbar"
+            android:layout_width="17dip"
+            android:layout_height="17dip"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dip"
+            android:indeterminate="true"
+            android:indeterminateOnly="true"
+            android:isScrollContainer="false"
+            android:soundEffectsEnabled="false" />
+
+        <ListView
+            android:id="@android:id/list"
+            style="@style/ListView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/head" />
+
+        <TextView
+            android:id="@+id/empty"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/head"
+            android:text="No Result Found!"
+            android:textColor="#000000"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Back"
+            android:textSize="20dip" />
+    </RelativeLayout>
+
+</LinearLayout>
